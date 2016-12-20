@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "ConnectHomeVehiEventProcessor", "ConnectHomeVehiEventProcessor\ConnectHomeVehiEventProcessor.ccproj", "{E78A8077-2B42-4667-AC97-3A7A4DBE585E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleRecieverRole", "VehicleRecieverRole\VehicleRecieverRole.csproj", "{0197A2ED-C289-40E9-8852-E37F2D8689B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHub.Common", "EventHub.Common\EventHub.Common.csproj", "{4A056CC8-88E6-409D-95C5-3CAA4225826B}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "VehicleConsumer", "VehicleConsumer\VehicleConsumer.ccproj", "{B9B5D4C3-FEE5-443D-A371-CA3FE2F8C6DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleConsumer1Role", "VehicleConsumer1Role\VehicleConsumer1Role.csproj", "{EF3A2EDD-C0A6-4D4A-9DA1-CB729D9F7EAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FavSubscriptionConsole", "FavSubscriptionConsole\FavSubscriptionConsole.csproj", "{99DEF23E-11FA-473F-810E-C14EBA975219}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E78A8077-2B42-4667-AC97-3A7A4DBE585E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E78A8077-2B42-4667-AC97-3A7A4DBE585E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E78A8077-2B42-4667-AC97-3A7A4DBE585E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E78A8077-2B42-4667-AC97-3A7A4DBE585E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0197A2ED-C289-40E9-8852-E37F2D8689B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0197A2ED-C289-40E9-8852-E37F2D8689B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0197A2ED-C289-40E9-8852-E37F2D8689B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0197A2ED-C289-40E9-8852-E37F2D8689B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A056CC8-88E6-409D-95C5-3CAA4225826B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A056CC8-88E6-409D-95C5-3CAA4225826B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A056CC8-88E6-409D-95C5-3CAA4225826B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A056CC8-88E6-409D-95C5-3CAA4225826B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9B5D4C3-FEE5-443D-A371-CA3FE2F8C6DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B5D4C3-FEE5-443D-A371-CA3FE2F8C6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B5D4C3-FEE5-443D-A371-CA3FE2F8C6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9B5D4C3-FEE5-443D-A371-CA3FE2F8C6DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF3A2EDD-C0A6-4D4A-9DA1-CB729D9F7EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3A2EDD-C0A6-4D4A-9DA1-CB729D9F7EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF3A2EDD-C0A6-4D4A-9DA1-CB729D9F7EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF3A2EDD-C0A6-4D4A-9DA1-CB729D9F7EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99DEF23E-11FA-473F-810E-C14EBA975219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99DEF23E-11FA-473F-810E-C14EBA975219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99DEF23E-11FA-473F-810E-C14EBA975219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99DEF23E-11FA-473F-810E-C14EBA975219}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
