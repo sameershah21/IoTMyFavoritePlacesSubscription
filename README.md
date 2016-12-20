@@ -3,6 +3,7 @@ My Favorites Places Subscription – An IOT Connected Home and Vehicle Project I
 
 Scenario:
 User is driving the connected car in their locality. The user has set their favorite places and spots which are usually booked and need to be subscribed e.g a favorite restaurant, a favorite place to place to find their Zen like spa, massaging center, park, etc, also a meetup venue hall that is usually booked soon. These locations have limited availability and/or get booked fast. If the user is within the vicinity of this favorite locations, then the Cloud Service will track this. 
+
 Technical Thought:
 This is a big data scenario as car with constantly publish events about its location and favorite places processor will constantly consume and check and see if there is availability of a place. Hence, I used Microsoft Azure Event Hub Architecture since this architecture is built to satisfy these big data processing requirements with its processing and scalability excellence. We can add multiple IoT publishers to feed their data based on Different Device ID. Also, we can have multiple consumer groups, for the same data but a different scenario then above.
 
